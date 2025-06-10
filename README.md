@@ -1,20 +1,21 @@
 # Nous-OS
 
-*The mindful operating system.*
+**A privacy-focused, offline-first Linux OS for reflective AI interaction. Built by a psychologist.**
 
-Nous-OS is a lightweight Linux-based OS designed to foster reflection, voice-based interaction, and inner structure. Inspired by the Platonic concept of *nous* – the guiding intellect – it aims to be more than just code: it’s a companion for clarity.
+## ✨ Features
+- Offline-capable AI interface
+- Built on Arch Linux ARM (Raspberry Pi 5)
+- Secure by default (no tracking, no cloud dependencies)
+- Voice-based interaction with optional STT/TTS
+- Minimalistic, reproducible system design
 
-## Features
-- 🧠 Speech input/output
-- 🔒 Fully offline & privacy-respecting
-- 🌱 Minimal, elegant, reproducible
-- 🗣️ Integrated AI for reflective dialogues
+## 🛠️ Tech Stack
+- Arch Linux ARM / custom Nix-based config
+- Fastfetch + Hyprland (lightweight UI)
+- Optional: DeepSeek, Whisper.cpp, ChatGPT API
 
-## Built on
-- Arch Linux ARM
-- PipeWire
-- Whisper / TTS
-- Custom Bash tools
+## 🚧 Status
+⚠️ In early development. Not yet ready for general use.
 
-## Status
-Currently in early development. First prototype for Raspberry Pi 5 is live.
+## 📜 License
+[MIT License](LICENSE)
