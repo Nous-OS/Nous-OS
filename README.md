@@ -17,5 +17,9 @@
 ## 🚧 Status
 ⚠️ In early development. Not yet ready for general use.
 
+## 🚀 Getting Started (coming soon)
+Nous-OS will run on the Raspberry Pi 5.  
+You’ll be able to download a bootable image here — or build it yourself using the provided scripts.
+
 ## 📜 License
-[MIT License](LICENSE)
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
