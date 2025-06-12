@@ -1,68 +1,78 @@
 # Nous-OS
 
-**A psychotherapeutic, privacy-focused, offline-first Linux distribution for conscious self-reflection, built by a psychologist.**
+**A digital self-reflection laboratory — privacy-first, offline, open-source.**
 
 ---
 
-## 🧠 Vision
+## 🧠 What is Nous-OS?
 
-Nous-OS is more than just an operating system.  
-It’s a *digital safe space* — a second, separate OS you intentionally boot into when taking time for yourself.
+Nous-OS is a dedicated Linux-based operating system designed to serve as a personal laboratory for self-reflection, structured journaling, and therapeutic support. It helps individuals explore their inner world while respecting the essential role of real human connection in therapy.
 
-- A protected room for inner work
-- Inspired by psychotherapy and psychoanalysis
-- Designed as a modern "transitional object" for psychological reflection
-- No distractions. No surveillance. No cloud.
+- Structure your thoughts, dreams, emotions and self-observations.
+- Prepare and accompany psychotherapy processes.
+- Become an active researcher of your own mind.
+- Fully offline, fully encrypted, fully under your control.
 
 ---
 
-## ✨ Key Features
+## 💡 Therapeutic Purpose
 
-- Dual-boot friendly: intentionally separate from your daily OS
-- Offline-first: full data ownership, no cloud dependencies
-- Full system encryption & privacy by default
-- Voice-based interaction with optional STT/TTS
-- Integrated AI-Coach (offline-capable, local models)
-- Journaling, breathing exercises, self-reflection tools, psychoeducation
-- Gentle UI/UX designed to promote calm, not overload
-- Visual and auditory rituals when booting into the system
-- Built for Raspberry Pi, Laptops, and PCs (x86 / ARM)
+Nous-OS serves as:
+
+- **Preparation space** — organize topics before entering therapy.
+- **Accompanying space** — journal between therapy sessions.
+- **Post-therapy tool** — continue self-care and insight after therapy.
+- **Stabilization resource** — breathing, meditation and regulation exercises.
+
+It is not a therapy substitute, but a powerful complement to human therapeutic work.
+
+---
+
+## ✨ Core Features
+
+- Dual-boot Linux OS for conscious self-work alongside your daily OS
+- Fully offline, fully encrypted, fully user-owned data
+- Structured journaling with dedicated sections:
+  - Dreams
+  - Thoughts
+  - Emotions
+  - Body observations
+  - AI reflections
+- Integrated optional AI support for pattern recognition & reflection (offline-capable LLMs)
+- Beautiful printable reports via LaTeX
+- Breathing, meditation & stabilization tools
+- Voice interaction (STT/TTS optional)
+- Clean, distraction-free user interface
+- Built for Raspberry Pi, Laptops, and PCs (ARM/x86)
 
 ---
 
 ## 🔧 Tech Stack
 
-- Arch Linux base (highly reproducible & stable)
-- XFCE or lightweight window managers (bspwm / i3 planned)
-- Custom offline-capable AI modules (DeepSeek, Whisper.cpp, Llama.cpp, optional ChatGPT API)
-- Fully encrypted local storage
-- Hardware targets: Raspberry Pi 5 (initial), generic PC hardware (laptops, desktops)
+- Arch Linux base (reproducible & stable)
+- Lightweight window managers (XFCE / bspwm / i3 planned)
+- Local AI modules (DeepSeek, Whisper.cpp, LLaMA.cpp; optional ChatGPT API)
+- Fully encrypted local storage (LUKS)
+- Raspberry Pi 5 (initial), generic PC hardware (laptops, desktops)
 
 ---
 
-## 💡 Usage Concept
+## 🚧 Current Development Status
 
-- On Raspberry Pi: standalone installation on dedicated hardware — a fully isolated device for maximum privacy.
-- On Laptops and PCs: installed alongside your main operating system (dual-boot), intentionally entered when you take time for self-reflection.
-- Booting into Nous-OS becomes a deliberate, ritualized transition into your personal inner space.
+Nous-OS is actively in early development:
 
----
+- Embedded version (Pi 5): prototype in progress
+- Laptop/Desktop version: roadmap active
+- Journal structure, LaTeX export, and offline AI modules under construction
 
-## 🚧 Current Status
-
-Nous-OS is actively in early development.  
-- Embedded version (Pi 5) → prototype running  
-- Laptop/Desktop version → roadmap in progress
-
-Community contributions, testers, and collaborators are warmly welcome.
+Community testers, developers, and collaborators are welcome.
 
 ---
 
-## 🚀 Getting Started (coming soon)
+## 🚀 Usage Concept
 
-- Raspberry Pi 5: downloadable pre-built images planned  
-- PC & Laptop version: easy dual-boot installer planned  
-- Encrypted portable builds (USB boot) planned
+- **Raspberry Pi**: standalone installation for maximum isolation & privacy
+- **PC & Laptop**: dual-boot installation alongside daily OS for intentional reflection space
 
 ---
 
@@ -75,7 +85,8 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ## 🙏 Ethical Statement
 
 Nous-OS follows strict ethical guidelines:
+
 - 100% user data ownership
 - No business model based on data harvesting
 - No hidden costs, no subscriptions
-- Open Source and fully transparent
+- Open Source, fully transparent, offline-first
