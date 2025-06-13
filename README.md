@@ -2,6 +2,26 @@
 
 **A digital self-reflection laboratory — privacy-first, offline, open-source.**
 
+          .:^^~^:                :~!7??~
+        :!?JJJJJJ?~           .^!7?JJJJJ.
+      .!7~:.:!JJJJJ7.        .^:  :JJJJ^
+     .7^     .?JJJJJ7             !JJJ~
+     ::      .?J?JJJJ~           ^JJJ!
+             :JJ^^JJJJ.         :JJJ~
+             7J?. !JJJ!         7JJ~
+            ^JJ~  .?JJ?.       !JJ~
+           :JJ?.   ~JJJ~      ^JJ7
+          .?JJ: .. .?JJ?     .?J?.
+         .?JJ7~!:   ^JJJ^    ~JJ^
+        :?JJJ?~      7JJ?.  .?J7
+       ^JJJJ!.       :JJJ7. ^JJ~
+     .!JJJ7:          ^JJJ?~7JJ.  
+    ^?JJ?^             :?JJJJJJ.
+  ^?JJ7^                .!?JJJJ!.    .
+^7?7~:                    .^!7?J?!~~^.
+..                             ....
+
+
 ---
 
 ## 🧠 What is Nous-OS?
