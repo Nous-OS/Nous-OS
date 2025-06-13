@@ -7,6 +7,7 @@
 **Lead Maintainer:**  
 - Janek (Nous-OS Founder)
 - Psychologist & Open-Source developer
+- Contact: nousos.dev@proton.me
 
 ---
 
