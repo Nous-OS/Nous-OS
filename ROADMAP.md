@@ -99,4 +99,3 @@ Every pull request will be reviewed for:
 
 Nous-OS is not simply software —  
 It is a protected space for safe, autonomous inner work.
-
