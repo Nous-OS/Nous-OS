@@ -95,4 +95,3 @@ Nous-OS is designed to:
 
 **Nous-OS is not simply software.**  
 It is a protected laboratory for self-reflection — where technology supports, but never replaces, the human soul.
-
