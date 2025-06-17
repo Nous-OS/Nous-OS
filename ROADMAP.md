@@ -1,79 +1,102 @@
-# 🗺 Nous-OS Development Roadmap 1.0
+# Nous-OS — Development Roadmap
 
 ---
 
-Nous-OS is a privacy-first Linux-based digital laboratory for self-reflection, therapeutic journaling, and AI-assisted inner work.  
-This roadmap outlines the development milestones for building Nous-OS step-by-step.
+## 🧠 Mission Summary
+
+Nous-OS is a **non-clinical, non-diagnostic, privacy-first operating system** for self-reflection, journaling, emotional self-structuring, and biographical work.
+
+It creates a protected laboratory for personal exploration — fully offline, fully user-owned, fully transparent.  
+Nous-OS does not replace therapy, simulate therapists, or offer any medical or diagnostic functions.
+
+All development follows the ethical charter (`ETHICS.md`).
 
 ---
 
-## Phase 1 — Core System (Minimal Functional Prototype)
+## 🚀 Current Development Phases
 
-- 🖥 Arch Linux ARM base (stable on Raspberry Pi 5)
-- 🖥 Arch Linux x86 base (stable on Laptop/Desktop, dual-boot ready)
-- 🎛 Lightweight desktop (initially XFCE, later bspwm/i3 optional)
-- 🔐 Full disk encryption (LUKS for system and user data)
-- 🖥 Basic bootscreen & placeholder branding
+### Phase 1 — Core System Foundation
+
+- Arch Linux base setup (stable & reproducible)
+- Lightweight desktop environments (XFCE, bspwm, i3)
+- Full-disk encryption (LUKS)
+- Local journaling database structure
+- Initial LaTeX report generation for printable journals
+- Raspberry Pi 5 compatibility (embedded version)
+- Generic PC/Laptop support (dual-boot option)
+- Full offline AI model integration:
+  - DeepSeek
+  - LLaMA.cpp
+  - Whisper.cpp
+- Fully offline operation (no cloud dependency)
 
 ---
 
-## Phase 2 — Journal Module (Therapeutic Core)
+### Phase 2 — Reflection & Stabilization Modules
 
-- 📓 Journaling backend with structured categories:
-  - Dreams
+- Structured journaling prompts:
   - Thoughts
   - Emotions
-  - Body Observations
-  - AI Reflections
-- 📦 Encrypted & modular data structure (e.g. YAML/JSON + Markdown)
-- 🖨 LaTeX export:
-  - Layout design for high-quality printable journals
-  - Local PDF export generation
+  - Dreams
+  - Body sensations
+  - Free journaling
+  - Self-reflection prompts (strictly non-directive)
+- Stabilization exercises:
+  - Breathing techniques
+  - Mindfulness practices
+  - Emotional regulation tools
+- Optional voice journaling (speech-to-text integration)
+- Visualization modules (self-reflection graphs, summaries)
 
 ---
 
-## Phase 3 — AI-Assisted Reflection (Offline-First)
+### Phase 3 — AI Integration (Strictly Non-Clinical)
 
-- 🔬 Whisper.cpp integration (local speech-to-text)
-- 🔬 DeepSeek / LLaMA.cpp integration (local language models for AI reflections)
-- 🔬 Basic pattern detection (e.g. recurring themes in dreams & thoughts)
-
----
-
-## Phase 4 — Stabilization & Mindfulness Module
-
-- 🧘 Breathing & relaxation exercises (local audio/visual modules)
-- 🧠 Psychoeducational modules (offline knowledge base)
-- 🔐 All data stored locally & encrypted
+- Local-only AI models by default
+- Optional API access (e.g. ChatGPT) — fully transparent to user
+- AI suggestions as journaling structure aids
+- No clinical assessments, no diagnoses, no therapeutic authority
+- No automated decision-making regarding user health or well-being
 
 ---
 
-## Phase 5 — Installer & Distribution
+### Phase 4 — System Expansion
 
-- 💾 Initial Nous-Pi image (for Raspberry Pi 5)
-- 💻 First x86 ISO image (for PC/Laptop)
-- ⚙️ Minimal installer (script or GUI-based)
-- 📄 Installation documentation added to repository
-
----
-
-## Phase 6 — Public Visibility & Community Building
-
-- 🌐 Setup GitHub docs/ directory
-- 📓 Publish Journal Specification as Markdown
-- 🌐 Create initial GitHub Pages project website
-- 📸 Add screenshots & demo material as prototypes evolve
-- 📢 Public Alpha Announcement
+- Portable installer and deployment tools for multiple hardware platforms
+- Secure backup & restore functions (fully user-controlled)
+- Multi-user support (family & home environments)
+- Extended stabilization & self-regulation resources
+- Self-hosted optional synchronization features (without cloud dependencies)
+- Hardware abstraction for simplified Raspberry Pi & generic PC installations
+- Long-term hardware platform extensions
 
 ---
 
-**Core Principles remain:**
+## 📜 Permanent Development Constraints
 
-- Offline-first  
-- No cloud dependencies  
-- Open-source & ethical  
-- Step-by-step expansion
+- No diagnostic, clinical, or therapeutic simulation functions.
+- No external data harvesting or telemetry.
+- 100% offline functionality by default.
+- Full data sovereignty for users.
+- 100% open-source transparency.
+- Strict adherence to `ETHICS.md` for all contributors and modules.
+- No monetization of personal data — ever.
 
 ---
 
-*Nous-OS helps you become the researcher of your own mind — so that human therapy can reach even deeper.*
+## 🤝 Community Contributions
+
+Nous-OS welcomes open-source contributors who fully accept and comply with the ethical charter (`ETHICS.md`).
+
+Every pull request will be reviewed for:
+
+- Ethical compliance
+- Privacy preservation
+- Non-clinical scope adherence
+- Technical stability
+
+---
+
+Nous-OS is not simply software —  
+It is a protected space for safe, autonomous inner work.
+
