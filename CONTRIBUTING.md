@@ -1,52 +1,84 @@
-# Contributing to Nous-OS
-
-Thank you for your interest in contributing to Nous-OS — a privacy-first Linux system for therapeutic journaling, self-reflection and offline AI-assisted inner work.
+# CONTRIBUTING.md — Contribution Guidelines
 
 ---
 
-## 💡 Project Scope
-
-Nous-OS is in early development. We focus on:
-
-- Fully offline, encrypted system architecture
-- Structured journaling modules
-- LaTeX export & beautiful printable reports
-- Local AI integration (LLM, STT/TTS, pattern recognition)
-- Mindfulness and psychoeducational modules
-- Ethical, privacy-first therapeutic support
-
-Please make sure all contributions align with these goals.
+We warmly welcome contributions to Nous-OS!  
+However, due to the sensitive nature of this project, all contributions must strictly follow the ethical, legal, and privacy standards outlined in this repository.
 
 ---
 
-## 🧱 How to Contribute
+## 🧠 Core Values
 
-- 🐛 Report issues, bugs or feature requests via GitHub Issues.
-- 💻 Fork the repository and submit pull requests for code contributions.
-- 📄 Suggest improvements to documentation, journal structure, or therapeutic features.
-- 🌐 Translators & accessibility experts welcome.
-- 🧠 Psychological professionals may contribute to content, exercises & educational modules.
+- **Privacy-first**
+- **Offline-first**
+- **Non-clinical, non-diagnostic**
+- **Open-source transparency**
+- **Full user data sovereignty**
+- **No monetization of personal data**
+
+Please familiarize yourself fully with:
+
+- [`ETHICS.md`](ETHICS.md)
+- [`ROADMAP.md`](ROADMAP.md)
+- [`SECURITY.md`](SECURITY.md)
+- [`LEGAL.md`](LEGAL.md)
+
+Contributors who do not agree to these principles may not contribute to this project.
 
 ---
 
-## 🔐 Ethical & Privacy Statement
+## 🚫 Forbidden Areas
 
-Nous-OS will never include:
+To protect users and ensure long-term safety, Nous-OS strictly prohibits:
 
-- Cloud dependencies  
-- Commercial tracking  
-- External data usage  
-- Any form of user data monetization
+- Any feature that may simulate, replace, or emulate therapeutic or medical professionals.
+- Any form of diagnosis, clinical evaluation, mental health risk assessment, or treatment suggestion.
+- Any cloud-based data storage, external telemetry, analytics, or hidden data collection.
+- Any form of data monetization or commercial tracking.
+- Any non-transparent or manipulative AI interventions.
 
-All contributors are expected to uphold these core principles.
+---
+
+## ✅ What You Can Build
+
+- Journaling structures
+- Reflection prompts (non-directive)
+- Emotional stabilization tools (breathing, mindfulness, regulation)
+- Local offline AI models (strictly reflective, not evaluative)
+- Voice interaction modules (speech-to-text, text-to-speech)
+- Secure backup tools
+- Portable installation scripts
+- Hardware compatibility layers
+
+---
+
+## 🛠 Code Standards
+
+- Write clean, well-documented code.
+- Test your code thoroughly before submission.
+- Include clear commit messages.
+- Use pull requests for all contributions.
+- Respect the architecture’s offline-first principle.
+- Follow standard security and privacy best practices.
+
+---
+
+## 🤝 Developer Behavior
+
+- Be kind, respectful, and professional.
+- Engage in open, transparent communication.
+- Accept that ethical compliance may override technical preference.
+- Understand that some feature proposals may be declined due to ethical boundaries.
 
 ---
 
 ## 📜 Licensing
 
-Nous-OS is licensed under the MIT License.  
-By contributing, you agree that your contributions will be released under this license.
+By contributing to Nous-OS, you agree that:
+
+- Your contributions are submitted under the MIT License.
+- You fully comply with the project's ethical charter (`ETHICS.md`).
 
 ---
 
-We build this project to protect both your data — and your mind.
+Thank you for helping to build Nous-OS as a safe, ethical, and empowering tool for personal reflection.
